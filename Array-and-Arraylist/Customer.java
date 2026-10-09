@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+
+public class Customer {
+    private String firstName;
+    private String lastName;
+    // ArrayList: a customer can have any number of accounts
+    private ArrayList<Account> accounts = new ArrayList<Account>();
+
+    public Customer(String f, String l) {
+        this.firstName = f;
+        this.lastName = l;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setAccount(Account acct) {
+        accounts.add(acct);
+    }
+
+    public Account getAccount(int accountIndex) {
+        if (accountIndex < 0 || accountIndex >= accounts.size()) {
+            return null;
+        }
+        return accounts.get(accountIndex);
+    }
+
+    public int getNumOfAccounts() {
+        return accounts.size();
+    }
+}

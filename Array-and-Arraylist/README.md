@@ -4,6 +4,7 @@ This is a simple Java-based console application that simulates a basic banking s
 
 ## 📸 Screenshot
 ![Program Output](image.png)
+Program Output
 
 ## 📚 Array vs. ArrayList Implementation
 This project specifically highlights the difference between fixed-size and dynamic data structures in Java:

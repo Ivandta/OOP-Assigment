@@ -3,7 +3,8 @@
 This is a simple Java-based console application that simulates a basic banking system. The project demonstrates core Object-Oriented Programming (OOP) concepts, including classes, encapsulation, static variables, and the practical implementation of both standard Java Arrays and dynamic ArrayLists.
 
 ## 📸 Screenshot
-![Program Output](image.png)
+![Program Output](image.png)  
+
 Program Output
 
 ## 📚 Array vs. ArrayList Implementation

@@ -153,5 +153,6 @@ Silinder berwarna Ungu, volume = 1539.3804002589986
 ```
 
 ## Screenshot
-![Program Output](image.png)
+![Program Output](image.png)  
+
 Program Output
